@@ -92,7 +92,7 @@
                         <h3 class="text-white">{{ $general->cur_sym }}{{ getAmount($widget['total_loss_amount']) }}</h3>
                         <p class="text-white">@lang('Total Loss Amount')</p>
                     </div>
-                    <a class="widget-two__btn" href="{{ route('admin.game.log') }}?search={{ $user->username }}&win_status=2">@lang('View All')</a>
+                    <a class="widget-two__btn" href="{{ route('admin.game.log') }}?search={{ $user->username }}&win_status=0">@lang('View All')</a>
                 </div>
             </div>
 
