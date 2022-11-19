@@ -14,6 +14,7 @@ $socialIcon  = getContent('social_icon.element', false, null, true);
                 <div class="col-xl-12 mt-4">
                     <div class="payment-slider">
                         @foreach ($payments as $payment)
+                       
                         <div class="single-slide">
                             <div class="payment-item">
                                 <img src="{{ getImage('assets/images/frontend/payment_method/' . @$payment->data_values->image, '85x65') }}" alt="image">
@@ -38,7 +39,7 @@ $socialIcon  = getContent('social_icon.element', false, null, true);
                 <div class="col-lg-6 col-md-8">
                     <form class="d-flex justify-content-end w-100 gap-2">
                         <div class="form-group w-100 mb-0">
-                            <input class="form-control" name="email" type="text" placeholder="@lang('Enter email address')">
+                            <input class="form-control" style='background-color:black;' name="email" type="text" placeholder="@lang('Enter email address')">
                         </div>
                         <button class="cmn-btn btn-sm subscribe-btn type= flex-shrink-0" type="button">@lang('Subscribe')</button>
                     </form>

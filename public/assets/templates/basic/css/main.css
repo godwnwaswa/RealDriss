@@ -16,7 +16,7 @@ body {
     margin: 0;
     font-weight: 400;
     position: relative;
-    background-color: #020C25;
+    background-color: black;
 }
 
 
@@ -264,7 +264,7 @@ a:hover {
 }
 
 .base--bg {
-    background-color: #ed1569;
+    background-color: black;
 }
 
 .dark--overlay {
@@ -279,7 +279,7 @@ a:hover {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #020C25;
+    background-color: black;
     z-index: -1;
     opacity: 0.75;
 }
@@ -349,7 +349,7 @@ label {
 
 .form-control:disabled,
 .form-control[readonly] {
-    background-color: unset;
+    background-color: black;
     opacity: 1;
 }
 
@@ -403,7 +403,7 @@ label {
 }
 
 .section--bg {
-    background-color: #01162f;
+    background-color: black;
 }
 
 .bg--base {
@@ -978,7 +978,7 @@ label {
     display: block;
     width: 100%;
     justify-content: space-between;
-    background-color: #e6a25d;
+    background-color: black;
     cursor: pointer;
     position: relative;
     text-align: left;
@@ -992,7 +992,7 @@ label {
 }
 
 .cmn-accordion .card-header .acc-btn.collapsed {
-    background-color: transparent;
+    background-color: black;
 }
 
 .cmn-accordion .card-header .acc-btn:focus {
@@ -1048,6 +1048,7 @@ label {
 }
 
 .cmn-accordion .card-body {
+    background-color: black;
     padding: 20px 20px;
 }
 
@@ -1885,7 +1886,7 @@ a:hover {
 
 .header.menu-fixed .header__bottom {
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
-    background-color: #070B28;
+    background-color: black;
     padding: 5px 0;
 }
 
@@ -2571,9 +2572,9 @@ span.is-active:after {
 /*  hero start css end */
 /* inner-hero section css start */
 .inner-hero {
-    padding-top: 160px;
-    padding-bottom: 70px;
-    background-color: #1A1A3E;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: black;
     position: relative;
 }
 
@@ -2584,7 +2585,7 @@ span.is-active:after {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #1A1A3E;
+    background-color: black;
     opacity: 0.5;
 }
 
@@ -2864,7 +2865,7 @@ span.is-active:after {
     align-items: center;
     position: relative;
     margin-left: 35px;
-    background-color: #01162f;
+    background-color: black;
 }
 
 .winner-item::before {
@@ -3073,7 +3074,7 @@ span.is-active:after {
     padding: 25px;
     border-radius: 8px;
     border: 1px solid rgba(255, 255, 255, 0.15);
-    background-color: #01162f;
+    background-color: black;
     transition: all 0.3s;
     height: 100%;
 }
@@ -3109,7 +3110,7 @@ span.is-active:after {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    background-color: #01162f;
+    background-color: black;
     border-radius: 50%;
     position: relative;
 }
@@ -3153,7 +3154,7 @@ span.is-active:after {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #1A1A3E;
+    background-color: black;
     opacity: 0.5;
 }
 
@@ -4051,7 +4052,7 @@ span.is-active:after {
 /* sidebar css end */
 /* footer section start */
 .footer-section {
-    background-color: #01162f;
+    background-color: black;
     padding-top: 40px;
     border-top: 1px solid rgba(255, 255, 255, 0.15);
 }
@@ -4085,7 +4086,7 @@ span.is-active:after {
 .footer-bottom {
     border-top: 1px solid rgba(255, 255, 255, 0.15);
     padding: 25px 0;
-    background-color: #070B28;
+    background-color: black;
 }
 
 .social-links {

@@ -1,5 +1,6 @@
 @php
 $statistics = getContent('statistics.element',false,null,true);
+
 @endphp
 <section class="statistics-section  section--bg">
     <div class="shape-1"></div>

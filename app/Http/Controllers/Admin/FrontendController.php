@@ -12,7 +12,7 @@ class FrontendController extends Controller {
     public function templates() {
         $pageTitle = 'Templates';
         $temPaths  = array_filter(glob('core/resources/views/templates/*'), 'is_dir');
-
+        $templates = [];
         foreach ($temPaths as $key => $temp) {
             $arr                      = explode('/', $temp);
             $tempname                 = end($arr);

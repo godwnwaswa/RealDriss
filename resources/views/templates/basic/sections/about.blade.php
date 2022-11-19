@@ -2,7 +2,7 @@
 $content = getContent('about.content',true);
 $abouts = getContent('about.element',false,null,true);
 @endphp
-<section class="pt-120 pb-120">
+<section class="pt-100 pb-100">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6 pr-lg-5">

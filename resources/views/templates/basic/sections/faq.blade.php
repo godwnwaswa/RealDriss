@@ -2,7 +2,7 @@
 $content = getContent('faq.content', true);
 $faqs = getContent('faq.element', false, null, true);
 @endphp
-<section class="pt-120 pb-120">
+<section class="pt-100 pb-100">
     <div class="container">
         <div class="row align-items-center justify-content-center">
             <div class="col-lg-6">

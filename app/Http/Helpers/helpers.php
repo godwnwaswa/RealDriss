@@ -306,6 +306,7 @@ function getContent($dataKeys, $singleQuery = false, $limit = null, $orderById =
 
     if ($singleQuery) {
         $content = Frontend::where('data_keys', $dataKeys)->orderBy('id', 'desc')->first();
+        
     } else {
         $article = Frontend::query();
         $article->when($limit != null, function ($q) use ($limit) {

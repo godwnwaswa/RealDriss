@@ -2,7 +2,7 @@
 $content = getContent('how_work.content',true);
 $howWorks = getContent('how_work.element',false,null,true);
 @endphp
-<section class="pt-120">
+<section class="pt-100">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-6">

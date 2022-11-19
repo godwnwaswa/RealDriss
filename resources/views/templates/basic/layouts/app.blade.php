@@ -26,15 +26,6 @@
 <body>
     @stack('fbComment')
 
-    <div class="preloader">
-        <div class="preloader__inner">
-            <div class="preloader__thumb">
-                <img class="loaderLogo mt-3" src="{{ getImage(getFilePath('logoIcon') . '/logo.png') }}" alt="imge">
-                <img class="loadercircle" src="{{ asset($activeTemplateTrue . 'images/preloader-dice.png') }}" alt="image">
-            </div>
-        </div>
-    </div>
-
     <div class="page-wrapper" id="main-scrollbar" data-scrollbar>
 
         @yield('app')

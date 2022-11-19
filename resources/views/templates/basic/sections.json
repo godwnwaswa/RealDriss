@@ -134,19 +134,6 @@
             "button_url": "text"
         }
     },
-    "referral": {
-        "builder": true,
-        "name": "Referral Section",
-        "content": {
-            "images": {
-                "image": {
-                    "size": "490x390"
-                }
-            },
-            "heading": "text",
-            "description": "textarea-nic"
-        }
-    },
     "testimonial": {
         "builder": true,
         "name": "Testimonial Section",

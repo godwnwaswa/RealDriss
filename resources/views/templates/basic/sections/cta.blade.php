@@ -1,7 +1,7 @@
 @php
 $content = getContent('cta.content',true);
 @endphp
-<section class="cta-section pt-120 pb-120 bg_img" style="background-image: url( {{ getImage('assets/images/frontend/cta/'.@$content->data_values->image,'1920x780') }} );">
+<section class="cta-section pt-100 pb-100" >
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-6 text-center position-relative">

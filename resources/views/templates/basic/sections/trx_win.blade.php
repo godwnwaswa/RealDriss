@@ -11,7 +11,7 @@ $transactions = \App\Models\Transaction::with('user')
 ->limit(7)
 ->get();
 @endphp
-<section class="pt-120 pb-120">
+<section class="pt-100 pb-100">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-xl-6 col-lg-8">

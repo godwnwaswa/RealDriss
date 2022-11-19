@@ -2,7 +2,7 @@
 $content = getContent('why_choose_us.content', true);
 $chooseElement = getContent('why_choose_us.element', false, null, true);
 @endphp
-<section class="pt-120 pb-120 dark--overlay bg_img border-top border-bottom" style="background-image: url( {{ getImage('assets/images/frontend/why_choose_us/' . @$content->data_values->image, '1920x1080') }} );">
+<section class="pt-100 pb-100 dark--overlay border-top border-bottom" >
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-6">
