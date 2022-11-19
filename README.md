@@ -1,1 +1,1 @@
-A blockchain backed financial system.
+A blockchain powered financial system.
