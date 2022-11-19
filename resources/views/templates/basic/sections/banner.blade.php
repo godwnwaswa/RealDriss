@@ -1,7 +1,7 @@
 @php
 $banner = getContent('banner.content',true);
 @endphp
-<section class="hero bg_img" style="background-image: url( {{ getImage('assets/images/frontend/banner/'.@$banner->data_values->image,'1920x780') }} );">
+<section class="hero">
     <div class="container">
         <div class="row justify-content-between align-items-center">
             <div class="col-lg-6">
