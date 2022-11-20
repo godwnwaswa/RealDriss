@@ -4,7 +4,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-10">
-                <div class="card rd-card">
+                <div class="card">
                     <div class="card-body">
                         <form class="register" action="" method="post">
                             @csrf

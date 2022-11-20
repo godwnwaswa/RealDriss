@@ -23,7 +23,7 @@ $pages = App\Models\Page::where('tempname',$activeTemplate)->where('is_default',
 
                         @auth
                         <a href="{{ route('user.home') }}"><i class="las la-tachometer-alt"></i> @lang('Dashboard')</a>
-                        <a href="{{ route('user.logout') }}"><i class="las la-sign-out-alt"></i> @lang('Logout')
+                        <a href="{{ route('user.logout') }}"><i class="las la-sign-out-alt"></i> @lang('Sign Out')
                         </a>
                         @else
                         <a href="{{ route('user.login') }}"><i class="las la-sign-in-alt"></i> @lang('Sign In')
@@ -36,7 +36,7 @@ $pages = App\Models\Page::where('tempname',$activeTemplate)->where('is_default',
                         @if ($general->language)
                         <select class="langSel">
                             @foreach ($language as $item)
-                            <option class='rd-bg-fix' value="{{ $item->code }}" @if (session('lang')==$item->code) selected @endif>{{ __($item->name) }}</option>
+                            <option  value="{{ $item->code }}" @if (session('lang')==$item->code) selected @endif>{{ __($item->name) }}</option>
                             @endforeach
                         </select>
                         @endif

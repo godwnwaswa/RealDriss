@@ -339,7 +339,7 @@ a:hover {
 }
 
 select option {
-    background-color: #0A0629;
+    background-color: #0E0E10;
 }
 
 label {
@@ -382,11 +382,11 @@ label {
 }
 
 .nice-select .list::-webkit-scrollbar-track {
-    background: #dedede;
+    background: #0E0E10;
 }
 
 .nice-select .list::-webkit-scrollbar-thumb {
-    background-color: #ed1569;
+    background-color: #0E0E10;
     border-radius: 10px;
 }
 
@@ -1122,13 +1122,13 @@ blockquote p {
 input:focus,
 textarea:focus,
 .nice-select.open {
-    border-color: #ed1569;
+    border-color: #0E0E10;
 }
 
 .nice-select .option:hover,
 .nice-select .option.focus,
 .nice-select .option.selected.focus {
-    background-color: #ed1569;
+    background-color: #0E0E10;
 }
 
 .page-breadcrumb {
@@ -1983,8 +1983,15 @@ a:hover {
     }
 }
 
+.site-logo-auth {
+    max-width: 120px;
+    max-height: 70px;
+    padding-bottom: 10px;
+}
+
+
 .header .site-logo img {
-    max-width: 100px;
+    max-width: 120px;
     max-height: 70px;
 }
 
@@ -2250,12 +2257,6 @@ a:hover {
     }
 }
 
-.rd-bg-fix{
-    background-color: #0E0E10;
-}
-.rd-bg-fix:hover {
-    color: #5EC36F;
-}
 .navbar-toggler {
     padding: 0;
     border: none;
@@ -2771,7 +2772,7 @@ span.is-active:after {
 
 .single-select.active {
     position: relative;
-    border-color: #e6a25d;
+    border-color: #0E0E10;
 }
 
 .single-select.active img {
@@ -4020,12 +4021,22 @@ span.is-active:after {
     margin: 5px 15px;
 }
 
+.card-mod{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
 .footer-menu li a {
     color: rgba(255, 255, 255, 0.7);
 }
 
 .footer-logo img {
-    max-width: 100px;
+    max-width: 120px;
     max-height: 70px;
 }
 

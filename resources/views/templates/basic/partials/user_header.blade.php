@@ -60,7 +60,7 @@
                         @if ($general->language)
                         <select class="langSel">
                             @foreach ($language as $item)
-                            <option class='rd-bg-fix' value="{{ $item->code }}" @if (session('lang')==$item->code) selected @endif>{{ __($item->name) }}</option>
+                            <option value="{{ $item->code }}" @if (session('lang')==$item->code) selected @endif>{{ __($item->name) }}</option>
                             @endforeach
                         </select>
                         @endif
