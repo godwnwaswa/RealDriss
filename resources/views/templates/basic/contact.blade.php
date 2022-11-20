@@ -4,7 +4,7 @@ $contactElement = getContent('contact_us.element', false, null, true);
 @endphp
 @extends($activeTemplate . 'layouts.frontend')
 @section('content')
-    <section class="pt-100 pb-100">
+    <section class="pt-50 pb-100">
         <div class="pb-100 container">
             <div class="row justify-content-center">
                 <div class="col-lg-12 mb-50">

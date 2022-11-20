@@ -18,6 +18,7 @@
     <link href="{{ asset($activeTemplateTrue . 'css/vendor/slick.css') }}" rel="stylesheet">
     <link href="{{ asset($activeTemplateTrue . 'css/main.css') }}" rel="stylesheet">
     <link href="{{ asset($activeTemplateTrue . 'css/custom.css') }}" rel="stylesheet">
+    <link href="{{ asset($activeTemplateTrue . 'css/preloader.css') }}" rel="stylesheet">
     <link href="{{asset($activeTemplateTrue.'css/color.php?color='.$general->base_color)}}" rel="stylesheet">
     @stack('style-lib')
     @stack('style')
@@ -90,15 +91,21 @@
     <script src="{{ asset($activeTemplateTrue . '/js/vendor/slick.min.js') }}"></script>
     <script src="{{ asset($activeTemplateTrue . '/js/vendor/wow.min.js') }}"></script>
     <script src="{{ asset($activeTemplateTrue . '/js/app.js') }}"></script>
-    <script src="{{ asset($activeTemplateTrue . '/js/jquery.preloadinator.min.js') }}"></script>
-
+    
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" 
-        integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" 
-        crossorigin="anonymous"></script>
+    integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" 
+    crossorigin="anonymous"></script>
+    <script src="{{ asset($activeTemplateTrue . '/js/jquery.preloadinator.js') }}"></script>
     <script>
         
         (function($) {
             "use strict";
+
+            
+			$('.js-preloader').preloadinator({
+				minTime: 2000
+			});
+
             $(".langSel").on("change", function() {
                 window.location.href = "{{ route('home') }}/change/" + $(this).val();
             });

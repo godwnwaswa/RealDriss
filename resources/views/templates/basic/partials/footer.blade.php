@@ -39,7 +39,7 @@ $socialIcon  = getContent('social_icon.element', false, null, true);
                 <div class="col-lg-6 col-md-8">
                     <form class="d-flex justify-content-end w-100 gap-2">
                         <div class="form-group w-100 mb-0">
-                            <input class="form-control" style='background-color:black;' name="email" type="text" placeholder="@lang('Enter email address')">
+                            <input class="form-control" name="email" type="text" placeholder="@lang('Enter email address')">
                         </div>
                         <button class="cmn-btn btn-sm subscribe-btn type= flex-shrink-0" type="button">@lang('Subscribe')</button>
                     </form>
@@ -50,7 +50,7 @@ $socialIcon  = getContent('social_icon.element', false, null, true);
     <div class="footer-bottom">
         <div class="container">
             <div class="d-flex justify-content-sm-between justify-content-center align-items-center flex-wrap gap-3">
-                <p>@lang('Copyright') &copy; @php echo date('Y') @endphp. @lang('All Rights Reserved')</p>
+                <p>&copy; @lang('Copyright') @php echo date('Y') @endphp @lang(' - RealDriss • All rights reserved.')</p>
                 <ul class="footer-social-links d-flex align-items-center justify-content-md-end justify-content-center flex-wrap">
                     @foreach ($socialIcon as $social)
                     <li>

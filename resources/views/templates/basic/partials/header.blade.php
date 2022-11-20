@@ -26,17 +26,17 @@ $pages = App\Models\Page::where('tempname',$activeTemplate)->where('is_default',
                         <a href="{{ route('user.logout') }}"><i class="las la-sign-out-alt"></i> @lang('Logout')
                         </a>
                         @else
-                        <a href="{{ route('user.login') }}"><i class="las la-sign-in-alt"></i> @lang('Login')
+                        <a href="{{ route('user.login') }}"><i class="las la-sign-in-alt"></i> @lang('Sign In')
                         </a>
                         @if ($general->registration)
-                        <a href="{{ route('user.register') }}"><i class="las la-user-plus"></i> @lang('Registration')</a>
+                        <a href="{{ route('user.register') }}"><i class="las la-user-plus"></i> @lang('Sign Up')</a>
                         @endif
                         @endauth
 
                         @if ($general->language)
                         <select class="langSel">
                             @foreach ($language as $item)
-                            <option value="{{ $item->code }}" @if (session('lang')==$item->code) selected @endif>{{ __($item->name) }}</option>
+                            <option class='rd-bg-fix' value="{{ $item->code }}" @if (session('lang')==$item->code) selected @endif>{{ __($item->name) }}</option>
                             @endforeach
                         </select>
                         @endif

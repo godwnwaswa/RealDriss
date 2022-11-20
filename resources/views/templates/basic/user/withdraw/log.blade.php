@@ -1,6 +1,6 @@
 @extends($activeTemplate . 'layouts.master')
 @section('content')
-    <div class="pt-120 pb-120">
+    <div class="pt-50 pb-120">
         <div class="container">
             <div class="row justify-content-center mt-2">
                 <div class="col-lg-12">

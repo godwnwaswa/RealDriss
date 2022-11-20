@@ -54,13 +54,13 @@
 
                     <div class="nav-right">
 
-                        <a href="{{ route('user.logout') }}"><i class="las la-sign-out-alt"></i> @lang('Logout')
+                        <a href="{{ route('user.logout') }}"><i class="las la-sign-out-alt"></i> @lang('Sign Out')
                         </a>
 
                         @if ($general->language)
                         <select class="langSel">
                             @foreach ($language as $item)
-                            <option value="{{ $item->code }}" @if (session('lang')==$item->code) selected @endif>{{ __($item->name) }}</option>
+                            <option class='rd-bg-fix' value="{{ $item->code }}" @if (session('lang')==$item->code) selected @endif>{{ __($item->name) }}</option>
                             @endforeach
                         </select>
                         @endif

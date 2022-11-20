@@ -1853,7 +1853,7 @@ a:hover {
 }
 
 .header.active {
-    background-color: #070B28;
+    background-color: #0E0E10;
 }
 
 .header.menu-fixed {
@@ -2077,6 +2077,10 @@ a:hover {
     }
 }
 
+.main-menu-color{
+    background-color: transparent;
+}
+
 .header .main-menu li a:hover,
 .header .main-menu li a:focus {
     color: #ed1569;
@@ -2088,7 +2092,7 @@ a:hover {
     top: 105%;
     left: -20px;
     z-index: 9999;
-    background-color: #020c25;
+    background-color: #0E0E10;
     padding: 10px 0;
     border-top: 2px solid #ed1569;
     -webkit-box-shadow: 0px 18px 54px -8px rgba(0, 0, 0, 0.15);
@@ -2171,6 +2175,7 @@ a:hover {
 .nav-right .langSel {
     margin-left: 20px;
     width: auto;
+    background-color: transparent;
 }
 
 @media (max-width: 1199px) {
@@ -2245,6 +2250,12 @@ a:hover {
     }
 }
 
+.rd-bg-fix{
+    background-color: #0E0E10;
+}
+.rd-bg-fix:hover {
+    color: #5EC36F;
+}
 .navbar-toggler {
     padding: 0;
     border: none;
@@ -2325,7 +2336,7 @@ span.is-active:after {
 }
 
 span.menu-toggle:hover {
-    color: #000000;
+    color: #5EC36F;
 }
 
 @media (max-width: 1199px) {
@@ -3168,7 +3179,7 @@ span.is-active:after {
     left: 25px;
     width: 32px;
     height: 32px;
-    background-color: #020C25;
+    background-color: #5EC36F;
     transform: rotate(45deg);
     border-bottom: 1px solid yellow;
     border-right: 1px solid yellow;
@@ -3187,7 +3198,8 @@ span.is-active:after {
 
 
 .testimonial-card__content-inner {
-    padding: 30px;
+    padding: 15px;
+    margin-bottom: 10px;
     background-color: #0E0E10;
     position: relative;
     z-index: 2;
@@ -4400,7 +4412,7 @@ h3.post-card__title.mt-2.mb-3 {
 }
 
 .nice-select .list {
-    background-color: #070b28;
+    background-color: #0E0E10;
 }
 
 

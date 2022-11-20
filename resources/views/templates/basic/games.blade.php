@@ -1,7 +1,7 @@
 @extends($activeTemplate . 'layouts.frontend')
 @section('content')
 
-<section class="pt-120 pb-120 section--bg">
+<section class="pt-50 pb-120 section--bg">
     <div class="container">
         <div class="row justify-content-center mb-none-30">
             @foreach ($games as $game)
