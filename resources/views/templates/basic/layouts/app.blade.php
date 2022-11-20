@@ -25,6 +25,13 @@
 
 <body>
     @stack('fbComment')
+    <div class="preloader js-preloader flex-center">
+        <div class="dots">
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+        </div>
+      </div>
 
     <div class="page-wrapper" id="main-scrollbar" data-scrollbar>
 
@@ -83,8 +90,13 @@
     <script src="{{ asset($activeTemplateTrue . '/js/vendor/slick.min.js') }}"></script>
     <script src="{{ asset($activeTemplateTrue . '/js/vendor/wow.min.js') }}"></script>
     <script src="{{ asset($activeTemplateTrue . '/js/app.js') }}"></script>
+    <script src="{{ asset($activeTemplateTrue . '/js/jquery.preloadinator.min.js') }}"></script>
 
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" 
+        integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" 
+        crossorigin="anonymous"></script>
     <script>
+        
         (function($) {
             "use strict";
             $(".langSel").on("change", function() {
