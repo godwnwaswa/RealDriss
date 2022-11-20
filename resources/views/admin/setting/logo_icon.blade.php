@@ -8,6 +8,7 @@
                 </div>
             </div>
         </div>
+        
         <div class="col-md-12 mb-30">
             <div class="card">
                 <div class="card-body">
@@ -32,7 +33,7 @@
                                             </div>
                                         </div>
                                         <div class="avatar-edit">
-                                            <input type="file" class="profilePicUpload" id="profilePicUpload1" accept=".png, .jpg, .jpeg" name="logo">
+                                            <input type="file" class="profilePicUpload" id="profilePicUpload1" accept=".png, .jpg, .jpeg, .svg" name="logo">
                                             <label for="profilePicUpload1" class="bg--primary">@lang('Select Logo')</label>
                                         </div>
                                     </div>

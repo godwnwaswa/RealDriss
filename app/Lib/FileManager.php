@@ -78,7 +78,7 @@ class FileManager {
     public function __construct($file = null) {
         $this->file = $file;
         if ($file) {
-            $imageExtensions = ['jpg', 'jpeg', 'png', 'JPG', 'JPEG', 'PNG'];
+            $imageExtensions = ['jpg', 'jpeg', 'png', 'JPG', 'JPEG', 'PNG', 'svg', 'SVG'];
             if (in_array($file->getClientOriginalExtension(), $imageExtensions)) {
                 $this->isImage = true;
             } else {

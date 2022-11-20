@@ -19,9 +19,9 @@ use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Str;
 
 function systemDetails() {
-    $system['name']          = 'xaxino';
-    $system['version']       = '2.0';
-    $system['build_version'] = '4.3.2';
+    $system['name']          = 'RealDriss';
+    $system['version']       = '1.0';
+    $system['build_version'] = '0.1.0';
     return $system;
 }
 
