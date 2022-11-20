@@ -1,6 +1,6 @@
 @extends($activeTemplate . 'layouts.frontend')
 @section('content')
-    <section class="blog-details-section pt-150 pb-150">
+    <section class="blog-details-section pt-50 pb-150">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
@@ -15,29 +15,6 @@
                         </div>
                     </div>
                     <div class="fb-comments" data-href="{{ route('blog.details', [$blog->id, slug($blog->data_values->title)]) }}" data-numposts="5"></div>
-
-                    <ul class="list list--row social-list justify-content-center mt-4">
-                        <li>
-                            <a target="_blank" class="t-link social-list__icon" href="https://www.facebook.com/sharer/sharer.php?u={{ urlencode(url()->current()) }}">
-                                <i class="lab la-facebook-f"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a target="_blank" class="t-link social-list__icon" href="https://twitter.com/intent/tweet?text={{ __(@$blog->data_values->title) }}%0A{{ url()->current() }}">
-                                <i class="lab la-twitter"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a target="_blank" class="t-link social-list__icon" href="http://www.linkedin.com/shareArticle?mini=true&amp;url={{ urlencode(url()->current()) }}&amp;title={{ __(@$blog->data_values->title) }}&amp;summary={{ __(@$blog->data_values->description) }}">
-                                <i class="lab la-linkedin-in"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a target="_blank" class="t-link social-list__icon" href="http://pinterest.com/pin/create/button/?url={{ urlencode(url()->current()) }}&description={{ __(@$blog->data_values->title) }}&media={{ getImage('assets/images/frontend/blog/' . $blog->data_values->image, '840x480') }}">
-                                <i class="lab la-pinterest"></i>
-                            </a>
-                        </li>
-                    </ul>
                 </div>
                 <div class="col-lg-4">
                     <aside class="sidebar">

@@ -3,7 +3,7 @@
     @php
         $kyc = getContent('user_kyc.content', true);
     @endphp
-    <section class="pt-120 pb-120">
+    <section class="pt-50 pb-120">
         <div class="container">
             <div class="row mb-3">
                 <div class="col-md-12">

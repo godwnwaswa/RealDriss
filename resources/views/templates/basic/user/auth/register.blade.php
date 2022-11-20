@@ -5,14 +5,14 @@
         $register = getContent('register.content', true);
     @endphp
 
-    <section class="registration-section bg_img" style="background-image: url( {{ getImage('assets/images/frontend/register/' . @$register->data_values->image, '1920x960') }} );">
-        <div class="registration-area">
-            <div class="registration-area-inner">
+    <section class="container rd-register">
+        <div class="card">
+            <div class="card-body">
                 <div class="text-center">
                     <a class="site-logo mb-4" href="{{ route('home') }}">
                         <img src="{{ getImage(getFilePath('logoIcon') . '/logo.png') }}" alt="site-logo">
                     </a>
-                    <h2 class="title mb-3">{{ __(@$register->data_values->title) }}</h2>
+                    {{-- <h2 class="title mb-3">{{ __(@$register->data_values->title) }}</h2> --}}
                     <p>{{ __(@$register->data_values->subtitle) }}</p>
                 </div>
                 <form class="verify-gcaptcha mt-4" action="{{ route('user.register') }}" method="POST">

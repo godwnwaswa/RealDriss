@@ -1,10 +1,10 @@
 @extends($activeTemplate.'layouts.master')
 @section('content')
-<div class="pt-120 pb-120">
+<div class="pt-50 pb-100">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-10">
-                <div class="card">
+                <div class="card rd-card">
                     <div class="card-body">
                         <form class="register" action="" method="post">
                             @csrf

@@ -3,14 +3,14 @@
 @php
 $login = getContent('login.content',true);
 @endphp
-<section class="login-section bg_img" style="background-image: url( {{ getImage('assets/images/frontend/login/' . @$login->data_values->image, '1920x1280') }} );">
-    <div class="login-area">
-        <div class="login-area-inner">
+<section class="container rd-register">
+    <div class="card">
+        <div class="card-body">
             <div class="text-center">
                 <a class="site-logo mb-4" href="{{ route('home') }}">
-                    <img src="{{ getImage(getFilePath('logoIcon') . '/logo.png') }}" alt="site-logo">
+                    <img src="{{ getImage(getFilePath('logoIcon') . '/logo.png') }}" alt="RealDriss">
                 </a>
-                <h2 class="title mb-2">{{ __(@$login->data_values->title) }}</h2>
+               {{--  <h2 class="title mb-2">{{ __(@$login->data_values->title) }}</h2> --}}   
                 <p>{{ __(@$login->data_values->subtitle) }}</p>
             </div>
             <form method="POST" action="{{ route('user.login')}}" class="login-form mt-50 verify-gcaptcha">
