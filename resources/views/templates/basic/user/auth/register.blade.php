@@ -1,22 +1,15 @@
-@extends($activeTemplate . 'layouts.app')
-@section('app')
+@extends($activeTemplate . 'layouts.frontend')
+@section('content')
     @php
         $policyPages = getContent('policy_pages.element', false, null, true);
         $register = getContent('register.content', true);
     @endphp
 
-    <section class="pt-50 pb-120">
+    <section class="pt-50 pb-100">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-8">
-                    <div class="card card-mod">                           
-                        <div class="text-center">
-                            <a class="site-logo-auth" href="{{ route('home') }}">
-                                <img src="{{ getImage(getFilePath('logoIcon') . '/logo.png') }}" alt="site-logo">
-                            </a>
-                            <h3 class="title mb-3">{{ __(@$register->data_values->title) }}</h3>
-                            <p>{{ __(@$register->data_values->subtitle) }}</p>
-                        </div>
+                    <div class="card card-mod">  
                         <form class="verify-gcaptcha mt-4" action="{{ route('user.register') }}" method="POST">
                             @csrf
                             <div class="row">

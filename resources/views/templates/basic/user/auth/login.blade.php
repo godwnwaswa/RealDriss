@@ -1,5 +1,5 @@
-@extends($activeTemplate.'layouts.app')
-@section('app')
+@extends($activeTemplate.'layouts.frontend')
+@section('content')
 @php
 $login = getContent('login.content',true);
 @endphp
@@ -7,14 +7,7 @@ $login = getContent('login.content',true);
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-8">
-                <div class="card card-mod">        
-                    <div class="text-center">
-                        <a class="site-logo-auth" href="{{ route('home') }}">
-                            <img src="{{ getImage(getFilePath('logoIcon') . '/logo.png') }}" alt="RealDriss">
-                        </a>
-                        <h3 class="title mb-2">{{ __(@$login->data_values->title) }}</h3> 
-                        <p>{{ __(@$login->data_values->subtitle) }}</p>
-                    </div>
+                <div class="card card-mod"> 
                     <form method="POST" action="{{ route('user.login')}}" class="login-form mt-50 verify-gcaptcha">
                         @csrf
                         <div class="form-group">

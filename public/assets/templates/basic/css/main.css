@@ -4022,9 +4022,7 @@ span.is-active:after {
 }
 
 .card-mod{
-    margin-top: 100px;
-    margin-bottom: 100px;
-    padding-top: 60px;
+    padding-top: 40px;
     padding-bottom: 50px;
     padding-left: 50px;
     padding-right: 50px;
