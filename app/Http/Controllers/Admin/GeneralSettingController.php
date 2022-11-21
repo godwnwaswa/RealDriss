@@ -85,8 +85,8 @@ class GeneralSettingController extends Controller {
                 }
 
                 Image::make($request->logo)->save($path . '/logo.png');
-            } catch (\Exception$exp) {
-                $notify[] = ['error', 'Couldn\'t upload the logo'];
+            } catch (\Exception $exp) {
+                $notify[] = ['error', $exp->getMessage()];
                 return back()->withNotify($notify);
             }
 
