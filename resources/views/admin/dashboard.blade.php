@@ -23,7 +23,7 @@
             @foreach (json_decode($general->system_info)->message as $msg)
                 <div class="col-md-12">
                     <div class="alert border--primary border" role="alert">
-                        <div class="alert__icon bg--primary"><i class="far fa-bell"></i></div>
+                        <div class="alert__icon bg--black"><i class="far fa-bell"></i></div>
                         <p class="alert__message">@php echo $msg; @endphp</p>
                         <button class="close" data-bs-dismiss="alert" type="button" aria-label="Close">
                             <span aria-hidden="true">×</span>
@@ -36,7 +36,7 @@
 
     <div class="row gy-4">
         <div class="col-xxl-3 col-sm-6">
-            <div class="card bg--primary has-link box--shadow2 overflow-hidden">
+            <div class="card bg--black has-link box--shadow2 overflow-hidden">
                 <a class="item-link" href="{{ route('admin.users.all') }}"></a>
                 <div class="card-body">
                     <div class="row align-items-center">
@@ -144,7 +144,7 @@
         <div class="col-xxl-3 col-sm-6">
             <div class="widget-two box--shadow2 b-radius--5 bg--white">
                 <i class="fas fa-percentage overlay-icon text--primary"></i>
-                <div class="widget-two__icon b-radius--5 bg--primary">
+                <div class="widget-two__icon b-radius--5 bg--black">
                     <i class="fas fa-percentage"></i>
                 </div>
                 <div class="widget-two__content">
@@ -216,7 +216,7 @@
         <div class="col-xxl-3 col-sm-6">
             <div class="widget-two style--two box--shadow2 b-radius--5 bg--1">
                 <i class="las la-users overlay-icon text--white"></i>
-                <div class="widget-two__icon b-radius--5 bg--primary">
+                <div class="widget-two__icon b-radius--5 bg--black">
                     <i class="las la-list"></i>
                 </div>
                 <div class="widget-two__content">
@@ -229,7 +229,7 @@
         <div class="col-xxl-3 col-sm-6">
             <div class="widget-two style--two box--shadow2 b-radius--5 bg--19">
                 <i class="las la-users overlay-icon text--white"></i>
-                <div class="widget-two__icon b-radius--5 bg--primary">
+                <div class="widget-two__icon b-radius--5 bg--black">
                     <i class="las la-money-bill-wave-alt"></i>
                 </div>
                 <div class="widget-two__content">
@@ -242,7 +242,7 @@
         <div class="col-xxl-3 col-sm-6">
             <div class="widget-two style--two box--shadow2 b-radius--5 bg--14">
                 <i class="las la-users overlay-icon text--white"></i>
-                <div class="widget-two__icon b-radius--5 bg--primary">
+                <div class="widget-two__icon b-radius--5 bg--black">
                     <i class="las la-money-bill"></i>
                 </div>
                 <div class="widget-two__content">
@@ -253,9 +253,9 @@
             </div>
         </div>
         <div class="col-xxl-3 col-sm-6">
-            <div class="widget-two style--two box--shadow2 b-radius--5 bg--primary">
+            <div class="widget-two style--two box--shadow2 b-radius--5 bg--black">
                 <i class="las la-users overlay-icon text--white"></i>
-                <div class="widget-two__icon b-radius--5 bg--primary">
+                <div class="widget-two__icon b-radius--5 bg--black">
                     <i class="las la-percentage"></i>
                 </div>
                 <div class="widget-two__content">
