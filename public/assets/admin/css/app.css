@@ -3179,7 +3179,6 @@ a {
 .card-body {
     background-color: #0E0E10;
     border-radius: 5px;
-    margin: 0px;
 }
 .open-code-btn {
     background-color: #000000;
@@ -3198,15 +3197,14 @@ a {
     color: #ffffff;
 }
 
-.card {
-    border: 1px solid rgba(255, 255, 255, 0.15);
-    box-shadow: 0 5px 15px 2px rgba(0, 0, 0, 1);
+.card-fix {
+    border: 0.1px solid rgba(255, 255, 255, 0.15);
     border-radius: 5px;
-    padding: 0px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
+    overflow: hidden;
 }
 
 .card[class*="border"] {
@@ -4390,6 +4388,8 @@ th.w-85 {
 }
 
 .widget-two {
+    border: 0.1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 5px;
     padding: 15px 15px;
     display: -ms-flexbox;
     display: flex;
@@ -4600,6 +4600,7 @@ th.w-85 {
 
 .has-link {
     position: relative;
+    box-shadow: 0 5px 15px 2px rgba(0, 0, 0, 1);
 }
 
 .item-link {
