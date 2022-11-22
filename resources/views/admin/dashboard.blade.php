@@ -22,8 +22,8 @@
         <div class="row">
             @foreach (json_decode($general->system_info)->message as $msg)
                 <div class="col-md-12">
-                    <div class="alert border--primary border" role="alert">
-                        <div class="alert__icon bg--primary"><i class="far fa-bell"></i></div>
+                    <div class="alert  border" role="alert">
+                        <div class="alert__icon "><i class="far fa-bell"></i></div>
                         <p class="alert__message">@php echo $msg; @endphp</p>
                         <button class="close" data-bs-dismiss="alert" type="button" aria-label="Close">
                             <span aria-hidden="true">×</span>
@@ -36,7 +36,7 @@
 
     <div class="row gy-4">
         <div class="col-xxl-3 col-sm-6">
-            <div class="card bg--primary has-link box--shadow2 overflow-hidden">
+            <div class="card  has-link  overflow-hidden">
                 <a class="item-link" href="{{ route('admin.users.all') }}"></a>
                 <div class="card-body">
                     <div class="row align-items-center">
@@ -52,7 +52,7 @@
             </div>
         </div><!-- dashboard-w1 end -->
         <div class="col-xxl-3 col-sm-6">
-            <div class="card bg--success has-link box--shadow2">
+            <div class="card has-link ">
                 <a class="item-link" href="{{ route('admin.users.active') }}"></a>
                 <div class="card-body">
                     <div class="row align-items-center">
@@ -68,7 +68,7 @@
             </div>
         </div><!-- dashboard-w1 end -->
         <div class="col-xxl-3 col-sm-6">
-            <div class="card bg--danger has-link box--shadow2">
+            <div class="card  has-link ">
                 <a class="item-link" href="{{ route('admin.users.email.unverified') }}"></a>
                 <div class="card-body">
                     <div class="row align-items-center">
@@ -84,7 +84,7 @@
             </div>
         </div><!-- dashboard-w1 end -->
         <div class="col-xxl-3 col-sm-6">
-            <div class="card bg--red has-link box--shadow2">
+            <div class="card has-link ">
                 <a class="item-link" href="{{ route('admin.users.mobile.unverified') }}"></a>
                 <div class="card-body">
                     <div class="row align-items-center">
@@ -103,110 +103,110 @@
 
     <div class="row gy-4 mt-2">
         <div class="col-xxl-3 col-sm-6">
-            <div class="widget-two box--shadow2 b-radius--5 bg--white">
+            <div class="widget-two   ">
                 <i class="fas fa-hand-holding-usd overlay-icon text--success"></i>
-                <div class="widget-two__icon b-radius--5 bg--success">
+                <div class="widget-two__icon  bg--success">
                     <i class="fas fa-hand-holding-usd"></i>
                 </div>
                 <div class="widget-two__content">
                     <h3>{{ $general->cur_sym }}{{ showAmount($deposit['total_deposit_amount']) }}</h3>
                     <p>@lang('Total Deposited')</p>
                 </div>
-                <a class="widget-two__btn border--success btn-outline--success border" href="{{ route('admin.deposit.list') }}">@lang('View All')</a>
+                <a class="widget-two__btn  btn-outline--success border" href="{{ route('admin.deposit.list') }}">@lang('View All')</a>
             </div>
         </div><!-- dashboard-w1 end -->
         <div class="col-xxl-3 col-sm-6">
-            <div class="widget-two box--shadow2 b-radius--5 bg--white">
+            <div class="widget-two   ">
                 <i class="fas fa-spinner overlay-icon text--warning"></i>
-                <div class="widget-two__icon b-radius--5 bg--warning">
+                <div class="widget-two__icon  bg--warning">
                     <i class="fas fa-spinner"></i>
                 </div>
                 <div class="widget-two__content">
                     <h3>{{ $deposit['total_deposit_pending'] }}</h3>
                     <p>@lang('Pending Deposits')</p>
                 </div>
-                <a class="widget-two__btn border--warning btn-outline--warning border" href="{{ route('admin.deposit.pending') }}">@lang('View All')</a>
+                <a class="widget-two__btn btn-outline--warning border" href="{{ route('admin.deposit.pending') }}">@lang('View All')</a>
             </div>
         </div><!-- dashboard-w1 end -->
         <div class="col-xxl-3 col-sm-6">
-            <div class="widget-two box--shadow2 b-radius--5 bg--white">
+            <div class="widget-two   ">
                 <i class="fas fa-ban overlay-icon text--danger"></i>
-                <div class="widget-two__icon b-radius--5 bg--danger">
+                <div class="widget-two__icon  ">
                     <i class="fas fa-ban"></i>
                 </div>
                 <div class="widget-two__content">
                     <h3>{{ $deposit['total_deposit_rejected'] }}</h3>
                     <p>@lang('Rejected Deposits')</p>
                 </div>
-                <a class="widget-two__btn border--danger btn-outline--danger border" href="{{ route('admin.deposit.rejected') }}">@lang('View All')</a>
+                <a class="widget-two__btn btn-outline--danger border" href="{{ route('admin.deposit.rejected') }}">@lang('View All')</a>
             </div>
         </div><!-- dashboard-w1 end -->
         <div class="col-xxl-3 col-sm-6">
-            <div class="widget-two box--shadow2 b-radius--5 bg--white">
+            <div class="widget-two   ">
                 <i class="fas fa-percentage overlay-icon text--primary"></i>
-                <div class="widget-two__icon b-radius--5 bg--primary">
+                <div class="widget-two__icon  ">
                     <i class="fas fa-percentage"></i>
                 </div>
                 <div class="widget-two__content">
                     <h3>{{ $general->cur_sym }}{{ showAmount($deposit['total_deposit_charge']) }}</h3>
                     <p>@lang('Deposited Charge')</p>
                 </div>
-                <a class="widget-two__btn border--primary btn-outline--primary border" href="{{ route('admin.deposit.list') }}">@lang('View All')</a>
+                <a class="widget-two__btn  btn-outline--primary border" href="{{ route('admin.deposit.list') }}">@lang('View All')</a>
             </div>
         </div><!-- dashboard-w1 end -->
     </div><!-- row end-->
 
     <div class="row gy-4 mt-2">
         <div class="col-xxl-3 col-sm-6">
-            <div class="widget-two box--shadow2 b-radius--5 bg--white">
+            <div class="widget-two   ">
                 <i class="lar la-credit-card overlay-icon text--success"></i>
-                <div class="widget-two__icon b-radius--5 border--success text--success border">
+                <div class="widget-two__icon   text--success border">
                     <i class="lar la-credit-card"></i>
                 </div>
                 <div class="widget-two__content">
                     <h3>{{ $general->cur_sym }}{{ showAmount($withdrawals['total_withdraw_amount']) }}</h3>
                     <p>@lang('Total Withdrawan')</p>
                 </div>
-                <a class="widget-two__btn border--success btn-outline--success border" href="{{ route('admin.withdraw.log') }}">@lang('View All')</a>
+                <a class="widget-two__btn  btn-outline--success border" href="{{ route('admin.withdraw.log') }}">@lang('View All')</a>
             </div>
         </div>
         <div class="col-xxl-3 col-sm-6">
-            <div class="widget-two box--shadow2 b-radius--5 bg--white">
+            <div class="widget-two   ">
                 <i class="las la-sync overlay-icon text--warning"></i>
-                <div class="widget-two__icon b-radius--5 border--warning text--warning border">
+                <div class="widget-two__icon   text--warning border">
                     <i class="las la-sync"></i>
                 </div>
                 <div class="widget-two__content">
                     <h3>{{ $withdrawals['total_withdraw_pending'] }}</h3>
                     <p>@lang('Pending Withdrawals')</p>
                 </div>
-                <a class="widget-two__btn border--warning btn-outline--warning border" href="{{ route('admin.withdraw.pending') }}">@lang('View All')</a>
+                <a class="widget-two__btn  btn-outline--warning border" href="{{ route('admin.withdraw.pending') }}">@lang('View All')</a>
             </div>
         </div>
         <div class="col-xxl-3 col-sm-6">
-            <div class="widget-two box--shadow2 b-radius--5 bg--white">
+            <div class="widget-two   ">
                 <i class="las la-times-circle overlay-icon text--danger"></i>
-                <div class="widget-two__icon b-radius--5 border--danger text--danger border">
+                <div class="widget-two__icon   text--danger border">
                     <i class="las la-times-circle"></i>
                 </div>
                 <div class="widget-two__content">
                     <h3>{{ $withdrawals['total_withdraw_rejected'] }}</h3>
                     <p>@lang('Rejected Withdrawals')</p>
                 </div>
-                <a class="widget-two__btn border--danger btn-outline--danger border" href="{{ route('admin.withdraw.rejected') }}">@lang('View All')</a>
+                <a class="widget-two__btn  btn-outline--danger border" href="{{ route('admin.withdraw.rejected') }}">@lang('View All')</a>
             </div>
         </div>
         <div class="col-xxl-3 col-sm-6">
-            <div class="widget-two box--shadow2 b-radius--5 bg--white">
+            <div class="widget-two   ">
                 <i class="las la-percent overlay-icon text--primary"></i>
-                <div class="widget-two__icon b-radius--5 border--primary text--primary border">
+                <div class="widget-two__icon   text--primary border">
                     <i class="las la-percent"></i>
                 </div>
                 <div class="widget-two__content">
                     <h3>{{ $general->cur_sym }}{{ showAmount($withdrawals['total_withdraw_charge']) }}</h3>
                     <p>@lang('Withdrawal Charge')</p>
                 </div>
-                <a class="widget-two__btn border--primary btn-outline--primary border" href="{{ route('admin.withdraw.log') }}">@lang('View All')</a>
+                <a class="widget-two__btn  btn-outline--primary border" href="{{ route('admin.withdraw.log') }}">@lang('View All')</a>
             </div>
         </div>
     </div><!-- row end-->
@@ -214,9 +214,9 @@
     <div class="row gy-4 mt-2">
 
         <div class="col-xxl-3 col-sm-6">
-            <div class="widget-two style--two box--shadow2 b-radius--5 bg--1">
+            <div class="widget-two style--two   ">
                 <i class="las la-users overlay-icon text--white"></i>
-                <div class="widget-two__icon b-radius--5 bg--primary">
+                <div class="widget-two__icon  ">
                     <i class="las la-list"></i>
                 </div>
                 <div class="widget-two__content">
@@ -227,9 +227,9 @@
             </div>
         </div>
         <div class="col-xxl-3 col-sm-6">
-            <div class="widget-two style--two box--shadow2 b-radius--5 bg--19">
+            <div class="widget-two style--two   9">
                 <i class="las la-users overlay-icon text--white"></i>
-                <div class="widget-two__icon b-radius--5 bg--primary">
+                <div class="widget-two__icon  ">
                     <i class="las la-money-bill-wave-alt"></i>
                 </div>
                 <div class="widget-two__content">
@@ -240,9 +240,9 @@
             </div>
         </div>
         <div class="col-xxl-3 col-sm-6">
-            <div class="widget-two style--two box--shadow2 b-radius--5 bg--14">
+            <div class="widget-two style--two   4">
                 <i class="las la-users overlay-icon text--white"></i>
-                <div class="widget-two__icon b-radius--5 bg--primary">
+                <div class="widget-two__icon  ">
                     <i class="las la-money-bill"></i>
                 </div>
                 <div class="widget-two__content">
@@ -253,9 +253,9 @@
             </div>
         </div>
         <div class="col-xxl-3 col-sm-6">
-            <div class="widget-two style--two box--shadow2 b-radius--5 bg--primary">
+            <div class="widget-two style--two   ">
                 <i class="las la-users overlay-icon text--white"></i>
-                <div class="widget-two__icon b-radius--5 bg--primary">
+                <div class="widget-two__icon  ">
                     <i class="las la-percentage"></i>
                 </div>
                 <div class="widget-two__content">
@@ -446,29 +446,7 @@
                     data: {{ $chart['user_browser_counter']->flatten() }},
                     backgroundColor: [
                         '#ff7675',
-                        '#6c5ce7',
-                        '#ffa62b',
-                        '#ffeaa7',
-                        '#D980FA',
-                        '#fccbcb',
-                        '#45aaf2',
-                        '#05dfd7',
-                        '#FF00F6',
-                        '#1e90ff',
-                        '#2ed573',
-                        '#eccc68',
-                        '#ff5200',
-                        '#cd84f1',
-                        '#7efff5',
-                        '#7158e2',
-                        '#fff200',
-                        '#ff9ff3',
-                        '#08ffc8',
-                        '#3742fa',
-                        '#1089ff',
-                        '#70FF61',
-                        '#bf9fee',
-                        '#574b90'
+                        
                     ],
                     borderColor: [
                         'rgba(231, 80, 90, 0.75)'
@@ -511,29 +489,6 @@
                     data: {{ $chart['user_os_counter']->flatten() }},
                     backgroundColor: [
                         '#ff7675',
-                        '#6c5ce7',
-                        '#ffa62b',
-                        '#ffeaa7',
-                        '#D980FA',
-                        '#fccbcb',
-                        '#45aaf2',
-                        '#05dfd7',
-                        '#FF00F6',
-                        '#1e90ff',
-                        '#2ed573',
-                        '#eccc68',
-                        '#ff5200',
-                        '#cd84f1',
-                        '#7efff5',
-                        '#7158e2',
-                        '#fff200',
-                        '#ff9ff3',
-                        '#08ffc8',
-                        '#3742fa',
-                        '#1089ff',
-                        '#70FF61',
-                        '#bf9fee',
-                        '#574b90'
                     ],
                     borderColor: [
                         'rgba(0, 0, 0, 0.05)'

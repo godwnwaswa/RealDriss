@@ -38,7 +38,7 @@
                                 <div class="row">
 
                                     <div class="col-lg-6">
-                                        <div class="card border--primary mt-3">
+                                        <div class="card  mt-3">
                                             <h5 class="card-header bg--primary">@lang('Range')</h5>
                                             <div class="card-body">
                                                 <div class="form-group">
@@ -59,7 +59,7 @@
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
-                                        <div class="card border--primary mt-3">
+                                        <div class="card  mt-3">
                                             <h5 class="card-header bg--primary">@lang('Charge')</h5>
                                             <div class="card-body">
                                                 <div class="form-group">
@@ -81,7 +81,7 @@
                                     </div>
 
                                     <div class="col-lg-12">
-                                        <div class="card border--primary mt-3">
+                                        <div class="card  mt-3">
 
                                             <h5 class="card-header bg--primary">@lang('Deposit Instruction')</h5>
                                             <div class="card-body">
@@ -93,7 +93,7 @@
                                     </div>
 
                                     <div class="col-lg-12">
-                                        <div class="card border--primary mt-3">
+                                        <div class="card  mt-3">
                                             <div class="card-header bg--primary d-flex justify-content-between">
                                                 <h5 class="text-white">@lang('User Data')</h5>
                                                 <button class="btn btn-sm btn-outline-light float-end form-generate-btn" type="button"> <i class="la la-fw la-plus"></i>@lang('Add New')</button>

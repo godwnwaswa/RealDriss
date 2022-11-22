@@ -2,7 +2,7 @@
 @section('panel')
 <div class="row mb-none-30 justify-content-center">
     <div class="col-xl-4 col-md-6 mb-30">
-        <div class="card b-radius--10 box--shadow1 overflow-hidden">
+        <div class="card box--shadow1 overflow-hidden">
             <div class="card-body">
                 <h5 class="text-muted mb-20">@lang('Deposit Via') {{ __(@$deposit->gateway->name) }}</h5>
                 <ul class="list-group">
@@ -62,7 +62,7 @@
     </div>
     @if($details || $deposit->status == Status::PAYMENT_PENDING)
     <div class="col-xl-8 col-md-6 mb-30">
-        <div class="card b-radius--10 box--shadow1 overflow-hidden">
+        <div class="card box--shadow1 overflow-hidden">
             <div class="card-body">
                 <h5 class="card-title mb-50 border-bottom pb-2">@lang('User Deposit Information')</h5>
                 @if ($details != null)

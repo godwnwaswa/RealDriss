@@ -4,7 +4,7 @@
     <div class="row justify-content-center">
         @if (request()->routeIs('admin.deposit.list') || request()->routeIs('admin.deposit.method') || request()->routeIs('admin.users.deposits') || request()->routeIs('admin.users.deposits.method'))
             <div class="col-xxl-3 col-sm-6 mb-30">
-                <div class="widget-two box--shadow2 b-radius--5 bg--success has-link">
+                <div class="widget-two box--shadow2  bg--success has-link">
                     <a class="item-link" href="{{ route('admin.deposit.successful') }}"></a>
                     <div class="widget-two__content">
                         <h2 class="text-white">{{ __($general->cur_sym) }}{{ showAmount($successful) }}</h2>
@@ -13,7 +13,7 @@
                 </div><!-- widget-two end -->
             </div>
             <div class="col-xxl-3 col-sm-6 mb-30">
-                <div class="widget-two box--shadow2 b-radius--5 bg--6 has-link">
+                <div class="widget-two box--shadow2  bg--6 has-link">
                     <a class="item-link" href="{{ route('admin.deposit.pending') }}"></a>
                     <div class="widget-two__content">
                         <h2 class="text-white">{{ __($general->cur_sym) }}{{ showAmount($pending) }}</h2>
@@ -22,7 +22,7 @@
                 </div><!-- widget-two end -->
             </div>
             <div class="col-xxl-3 col-sm-6 mb-30">
-                <div class="widget-two box--shadow2 has-link b-radius--5 bg--pink">
+                <div class="widget-two box--shadow2 has-link  bg--pink">
                     <a class="item-link" href="{{ route('admin.deposit.rejected') }}"></a>
                     <div class="widget-two__content">
                         <h2 class="text-white">{{ __($general->cur_sym) }}{{ showAmount($rejected) }}</h2>
@@ -31,7 +31,7 @@
                 </div><!-- widget-two end -->
             </div>
             <div class="col-xxl-3 col-sm-6 mb-30">
-                <div class="widget-two box--shadow2 has-link b-radius--5 bg--dark">
+                <div class="widget-two box--shadow2 has-link  bg--dark">
                     <a class="item-link" href="{{ route('admin.deposit.initiated') }}"></a>
                     <div class="widget-two__content">
                         <h2 class="text-white">{{ __($general->cur_sym) }}{{ showAmount($initiated) }}</h2>
@@ -42,7 +42,7 @@
         @endif
 
         <div class="col-md-12">
-            <div class="card b-radius--10">
+            <div class="card">
                 <div class="card-body p-0">
                     <div class="table-responsive--sm table-responsive">
                         <table class="table--light style--two table">

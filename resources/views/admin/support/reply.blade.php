@@ -63,7 +63,7 @@
 
                 @foreach ($messages as $message)
                 @if ($message->admin_id == 0)
-                <div class="row border--primary border-radius-3 my-3 mx-2 border">
+                <div class="row  border-radius-3 my-3 mx-2 border">
 
                     <div class="col-md-3 border-end text-md-end text-start">
                         <h5 class="my-3">{{ $ticket->name }}</h5>

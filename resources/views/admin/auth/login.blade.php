@@ -7,8 +7,9 @@
                 <div class="login-area">
                     <div class="login-wrapper">
                         <div class="login-wrapper__top">
-                            <h3 class="title text-white">@lang('Welcome to') <strong>{{ __($general->site_name) }}</strong></h3>
+                            <h3 class="title text-white">@lang('Sign In') </h3>
                         </div>
+                        
                         <div class="login-wrapper__body">
                             <form action="{{ route('admin.login') }}" method="POST"
                                 class="cmn-form mt-30 verify-gcaptcha login-form">
@@ -30,7 +31,7 @@
                                     <a href="{{ route('admin.password.reset') }}"
                                         class="forget-text">@lang('Forgot Password?')</a>
                                 </div>
-                                <button type="submit" class="btn cmn-btn w-100">@lang('LOGIN')</button>
+                                <button type="submit" class="btn cmn-btn w-100">@lang('Sign In')</button>
                             </form>
                         </div>
                     </div>

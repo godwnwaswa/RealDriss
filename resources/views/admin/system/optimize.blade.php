@@ -2,7 +2,7 @@
 @section('panel')
     <div class="row justify-content-center">
         <div class="col-xl-8">
-            <div class="card b-radius--10 ">
+            <div class="card ">
                 <div class="card-body p-0">
                     <ul class="list-group">
                         <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">

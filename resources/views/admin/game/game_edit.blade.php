@@ -32,7 +32,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-md-5">
-                                        <div class="card border--primary">
+                                        <div class="card ">
                                             <h5 class="card-header bg--primary">@lang('Play Amount')</h5>
                                             <div class="card-body">
                                                 <div class="form-group">
@@ -53,7 +53,7 @@
                                         </div>
                                     </div>
                                     <div class="col-md-7">
-                                        <div class="card border--primary">
+                                        <div class="card ">
                                             <h5 class="card-header bg--primary">@lang('Win Setting') </h5>
                                             <div class="card-body">
                                                 <div class="row">
@@ -89,7 +89,7 @@
                             </div>
                         </div>
                         <div class="col-lg-12">
-                            <div class="card border--primary mt-3">
+                            <div class="card  mt-3">
                                 <h5 class="card-header bg--primary">@lang(' Game Instruction')</h5>
                                 <div class="card-body">
                                     <div class="form-group">

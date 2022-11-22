@@ -3,7 +3,7 @@
     <div class="row mb-none-30">
         <div class="col-xl-3 col-lg-4 mb-30">
 
-            <div class="card b-radius--5 overflow-hidden">
+            <div class="card  overflow-hidden">
                 <div class="card-body p-0">
                     <div class="d-flex bg--primary align-items-center p-3">
                         <div class="avatar avatar--lg">

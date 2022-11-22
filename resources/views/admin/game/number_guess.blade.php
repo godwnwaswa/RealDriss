@@ -2,7 +2,7 @@
 @section('panel')
 <div class="row">
     <div class="col-lg-6">
-        <div class="card b-radius--10">
+        <div class="card">
             <div class="card-header">
                 <h4 class="card-title mb-0">@lang('Current Setting')</h4>
             </div>
@@ -33,7 +33,7 @@
         </div>
     </div>
     <div class="col-lg-6">
-        <div class="card b-radius--10">
+        <div class="card">
             <div class="card-header">
                 <h4 class="card-title mb-0">@lang('Change Setting')</h4>
             </div>
@@ -92,7 +92,7 @@
                             </div>
                             <div class="row justify-content-center mt-5">
                                 <div class="col-md-12">
-                                    <div class="card border--primary">
+                                    <div class="card ">
                                         <h5 class="card-header bg--primary">@lang('Play Amount')</h5>
                                         <div class="card-body">
                                             <div class="form-group">
@@ -116,7 +116,7 @@
                         </div>
                     </div>
                     <div class="col-lg-12">
-                        <div class="card border--primary mt-3">
+                        <div class="card  mt-3">
                             <h5 class="card-header bg--primary">@lang('Game Instruction')</h5>
                             <div class="card-body">
                                 <div class="form-group">

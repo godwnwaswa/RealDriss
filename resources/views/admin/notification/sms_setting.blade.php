@@ -175,7 +175,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <div class="card border--dark mb-3">
+                                    <div class="card mb-3">
                                         <div class="card-header bg--dark d-flex justify-content-between">
                                             <h5 class="text-white">@lang('Headers')</h5>
                                             <button class="btn btn-sm btn-outline-light addHeader float-right" type="button"><i class="la la-fw la-plus"></i>@lang('Add') </button>
@@ -200,7 +200,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <div class="card border--dark mb-3">
+                                    <div class="card mb-3">
                                         <div class="card-header bg--dark d-flex justify-content-between">
                                             <h5 class="text-white">@lang('Body')</h5>
                                             <button class="btn btn-sm btn-outline-light addBody float-right" type="button"><i class="la la-fw la-plus"></i>@lang('Add') </button>

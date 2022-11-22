@@ -33,7 +33,7 @@
 							</div>
 							<div class="row mt-5">
 								<div class="col-md-5 mb-4">
-									<div class="card border--primary">
+									<div class="card ">
 										<h5 class="card-header bg--primary">@lang('Play Amount')</h5>
 										<div class="card-body">
 											<div class="form-group">
@@ -54,7 +54,7 @@
 									</div>
 								</div>
 								<div class="col-md-7 mb-4">
-									<div class="card border--primary">
+									<div class="card ">
 										<h5 class="card-header bg--primary">@lang('Win Chance Setting')</h5>
 										<div class="card-body">
 											<div class="row">
@@ -107,7 +107,7 @@
 									</div>
 								</div>
 								<div class="col-md-12 mb-4">
-									<div class="card border--primary">
+									<div class="card ">
 										<h5 class="card-header bg--primary">@lang('Win Bonus Setting')</h5>
 										<div class="card-body">
 											<div class="row">
@@ -146,7 +146,7 @@
 						</div>
 					</div>
 					<div class="col-lg-12">
-						<div class="card border--primary mt-3">
+						<div class="card  mt-3">
 							<h5 class="card-header bg--primary">@lang('Game Instruction')</h5>
 							<div class="card-body">
 								<div class="form-group">
