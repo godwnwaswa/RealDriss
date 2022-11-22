@@ -2,7 +2,7 @@
 @section('panel')
     <div class="row mb-none-30">
         <div class="col-xl-12">
-            <div class="card b-radius--10 ">
+            <div class="card ">
               <div class="card-body p-0">
                 <ul class="list-group">
                   <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">

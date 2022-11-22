@@ -2,7 +2,7 @@
 @section('panel')
     <div class="row justify-content-center">
         <div class="col-xl-8">
-            <div class="card b-radius--10 ">
+            <div class="card ">
               <div class="card-body text-center">
                 <h3>@lang('To keep our support system efficient and seamless and to keep your data safe and secure, we\'ve developed an easy to use support portal for you. We are now using that centralized system to provide support.')</h3>
               </div>

@@ -4,7 +4,7 @@
     <div class="row justify-content-center">
         @if (request()->routeIs('admin.withdraw.log') || request()->routeIs('admin.withdraw.method') || request()->routeIs('admin.users.withdrawals') || request()->routeIs('admin.users.withdrawals.method'))
             <div class="col-xl-4 col-sm-6 mb-30">
-                <div class="widget-two box--shadow2 has-link b-radius--5 bg--success">
+                <div class="widget-two box--shadow2 has-link  bg--success">
                     <a class="item-link" href="{{ route('admin.withdraw.approved') }}"></a>
                     <div class="widget-two__content">
                         <h2 class="text-white">{{ __($general->cur_sym) }}{{ showAmount($successful) }}</h2>
@@ -13,7 +13,7 @@
                 </div><!-- widget-two end -->
             </div>
             <div class="col-xl-4 col-sm-6 mb-30">
-                <div class="widget-two box--shadow2 has-link b-radius--5 bg--6">
+                <div class="widget-two box--shadow2 has-link  bg--6">
                     <a class="item-link" href="{{ route('admin.withdraw.pending') }}"></a>
                     <div class="widget-two__content">
                         <h2 class="text-white">{{ __($general->cur_sym) }}{{ showAmount($pending) }}</h2>
@@ -22,7 +22,7 @@
                 </div><!-- widget-two end -->
             </div>
             <div class="col-xl-4 col-sm-6 mb-30">
-                <div class="widget-two box--shadow2 b-radius--5 has-link bg--pink">
+                <div class="widget-two box--shadow2  has-link bg--pink">
                     <a class="item-link" href="{{ route('admin.withdraw.rejected') }}"></a>
                     <div class="widget-two__content">
                         <h2 class="text-white">{{ __($general->cur_sym) }}{{ showAmount($rejected) }}</h2>
@@ -32,7 +32,7 @@
             </div>
         @endif
         <div class="col-lg-12">
-            <div class="card b-radius--10">
+            <div class="card">
                 <div class="card-body p-0">
 
                     <div class="table-responsive--sm table-responsive">

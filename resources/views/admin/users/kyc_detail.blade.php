@@ -2,7 +2,7 @@
 @section('panel')
     <div class="row justify-content-center">
         <div class="col-lg-8">
-            <div class="card b-radius--10">
+            <div class="card">
                 <div class="card-body">
                     @if($user->kyc_data)
                         <ul class="list-group">

@@ -2,7 +2,7 @@
 @section('panel')
 <div class="row">
     <div class="col-sm-8 col-lg-8 col-xl-6 mx-auto">
-        <div class="card border--primary parent">
+        <div class="card imary parent">
             <div class="card-header bg--primary">
                 <h5 class="text-white float-start">@lang('Deposit Referral Commission')</h5>
                 @if($general->dc == 0)

@@ -2,7 +2,7 @@
 @section('panel')
     <div class="row mb-none-30">
         <div class="col-md-12">
-            <div class="card b-radius--10">
+            <div class="card">
                 <div class="card-body p-0">
                     <div class="table-responsive--md table-responsive">
                         <table class="table--light style--two table">

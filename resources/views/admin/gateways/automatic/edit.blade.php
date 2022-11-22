@@ -91,7 +91,7 @@
                                     <div class="payment-method-body">
                                         <div class="row">
                                             <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4">
-                                                <div class="card border--primary mt-2">
+                                                <div class="card  mt-2">
                                                     <h5 class="card-header bg--primary">@lang('Range')</h5>
                                                     <div class="card-body">
                                                         <div class="form-group">
@@ -112,7 +112,7 @@
                                                 </div>
                                             </div>
                                             <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4">
-                                                <div class="card border--primary mt-2">
+                                                <div class="card  mt-2">
                                                     <h5 class="card-header bg--primary">@lang('Charge')</h5>
                                                     <div class="card-body">
                                                         <div class="form-group">
@@ -133,7 +133,7 @@
                                                 </div>
                                             </div>
                                             <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4">
-                                                <div class="card border--primary mt-2">
+                                                <div class="card  mt-2">
                                                     <h5 class="card-header bg--primary">@lang('Currency')</h5>
                                                     <div class="card-body">
                                                         <div class="row">
@@ -169,7 +169,7 @@
                                                     $globalParameters = json_decode($gatewayCurrency->gateway_parameter);
                                                 @endphp
                                                 <div class="col-lg-12">
-                                                    <div class="card border--primary mt-4">
+                                                    <div class="card  mt-4">
                                                         <h5 class="card-header bg--dark">@lang('Configuration')</h5>
                                                         <div class="card-body">
                                                             <div class="row">
@@ -218,7 +218,7 @@
                             <div class="payment-method-body">
                                 <div class="row">
                                     <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4">
-                                        <div class="card border--primary mt-2">
+                                        <div class="card  mt-2">
                                             <h5 class="card-header bg--primary">@lang('Range')</h5>
                                             <div class="card-body">
                                                 <div class="form-group">
@@ -241,7 +241,7 @@
                                     </div>
 
                                     <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4">
-                                        <div class="card border--primary mt-2">
+                                        <div class="card  mt-2">
                                             <h5 class="card-header bg--primary">@lang('Charge')</h5>
                                             <div class="card-body">
                                                 <div class="form-group">
@@ -263,7 +263,7 @@
                                     </div>
 
                                     <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4">
-                                        <div class="card border--primary mt-2">
+                                        <div class="card  mt-2">
                                             <h5 class="card-header bg--primary">@lang('Currency')</h5>
                                             <div class="card-body">
                                                 <div class="row">
@@ -298,7 +298,7 @@
 
                                     @if ($parameters->where('global', false)->count() != 0)
                                         <div class="col-lg-12">
-                                            <div class="card border--primary mt-4">
+                                            <div class="card  mt-4">
                                                 <h5 class="card-header bg--dark">@lang('Configuration')</h5>
                                                 <div class="card-body">
                                                     <div class="row">

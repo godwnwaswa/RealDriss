@@ -6,8 +6,8 @@
         <div class="row gy-4">
 
             <div class="col-xxl-3 col-sm-6">
-                <div class="widget-two style--two box--shadow2 b-radius--5 bg--19">
-                    <div class="widget-two__icon b-radius--5 bg--primary">
+                <div class="widget-two style--two box--shadow2  bg--19">
+                    <div class="widget-two__icon  bg--primary">
                         <i class="las la-money-bill-wave-alt"></i>
                     </div>
                     <div class="widget-two__content">
@@ -19,8 +19,8 @@
             </div>
 
             <div class="col-xxl-3 col-sm-6">
-                <div class="widget-two style--two box--shadow2 b-radius--5 bg--primary">
-                    <div class="widget-two__icon b-radius--5 bg--primary">
+                <div class="widget-two style--two box--shadow2  bg--primary">
+                    <div class="widget-two__icon  bg--primary">
                         <i class="las la-wallet"></i>
                     </div>
                     <div class="widget-two__content">
@@ -32,8 +32,8 @@
             </div>
 
             <div class="col-xxl-3 col-sm-6">
-                <div class="widget-two style--two box--shadow2 b-radius--5 bg--1">
-                    <div class="widget-two__icon b-radius--5 bg--primary">
+                <div class="widget-two style--two box--shadow2  bg--1">
+                    <div class="widget-two__icon  bg--primary">
                         <i class="fas fa-wallet"></i>
                     </div>
                     <div class="widget-two__content">
@@ -45,8 +45,8 @@
             </div>
 
             <div class="col-xxl-3 col-sm-6">
-                <div class="widget-two style--two box--shadow2 b-radius--5 bg--17">
-                    <div class="widget-two__icon b-radius--5 bg--primary">
+                <div class="widget-two style--two box--shadow2  bg--17">
+                    <div class="widget-two__icon  bg--primary">
                         <i class="las la-gamepad"></i>
                     </div>
                     <div class="widget-two__content">
@@ -58,8 +58,8 @@
             </div>
 
             <div class="col-xxl-3 col-sm-6">
-                <div class="widget-two style--two box--shadow2 b-radius--5 bg--10">
-                    <div class="widget-two__icon b-radius--5 bg--10">
+                <div class="widget-two style--two box--shadow2  bg--10">
+                    <div class="widget-two__icon  bg--10">
                         <i class="las la-money-bill-wave-alt"></i>
                     </div>
                     <div class="widget-two__content">
@@ -71,8 +71,8 @@
             </div>
 
             <div class="col-xxl-3 col-sm-6">
-                <div class="widget-two style--two box--shadow2 b-radius--5 bg--success">
-                    <div class="widget-two__icon b-radius--5 bg--success">
+                <div class="widget-two style--two box--shadow2  bg--success">
+                    <div class="widget-two__icon  bg--success">
                         <i class="las la-wallet"></i>
                     </div>
                     <div class="widget-two__content">
@@ -84,8 +84,8 @@
             </div>
 
             <div class="col-xxl-3 col-sm-6">
-                <div class="widget-two style--two box--shadow2 b-radius--5 bg--danger">
-                    <div class="widget-two__icon b-radius--5 bg--danger">
+                <div class="widget-two style--two box--shadow2  bg--danger">
+                    <div class="widget-two__icon  bg--danger">
                         <i class="fas fa-wallet"></i>
                     </div>
                     <div class="widget-two__content">
@@ -97,8 +97,8 @@
             </div>
 
             <div class="col-xxl-3 col-sm-6">
-                <div class="widget-two style--two box--shadow2 b-radius--5 bg--green">
-                    <div class="widget-two__icon b-radius--5 bg--green">
+                <div class="widget-two style--two box--shadow2  bg--green">
+                    <div class="widget-two__icon  bg--green">
                         <i class="las la-exchange-alt"></i>
                     </div>
                     <div class="widget-two__content">

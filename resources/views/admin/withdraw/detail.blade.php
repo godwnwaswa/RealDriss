@@ -5,7 +5,7 @@
 
 
     <div class="col-lg-4 col-md-4 mb-30">
-        <div class="card b-radius--10 overflow-hidden box--shadow1">
+        <div class="card overflow-hidden box--shadow1">
             <div class="card-body">
                 <h5 class="mb-20 text-muted">@lang('Withdraw Via') {{__(@$withdrawal->method->name)}}</h5>
                 <ul class="list-group">
@@ -70,7 +70,7 @@
     </div>
     <div class="col-lg-8 col-md-8 mb-30">
 
-        <div class="card b-radius--10 overflow-hidden box--shadow1">
+        <div class="card overflow-hidden box--shadow1">
             <div class="card-body">
                 <h5 class="card-title border-bottom pb-2">@lang('User Withdraw Information')</h5>
 
