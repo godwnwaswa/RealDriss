@@ -2,7 +2,7 @@
 
 @section('content')
     <!-- page-wrapper start -->
-    <div class="page-wrapper default-version">
+    <div class="page-wrapper">
         @include('admin.partials.sidenav')
         @include('admin.partials.topnav')
 
