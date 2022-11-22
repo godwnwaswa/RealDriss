@@ -3516,6 +3516,8 @@ input.form-control-xl {
 input.form-control-lg {
     height: calc(1.8rem + 1rem + 2px);
     font-size: 1rem !important;
+    
+    background: #0E0E10;
 }
 
 input.form-control-sm {
