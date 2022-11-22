@@ -105,7 +105,7 @@
         <div class="col-xxl-3 col-sm-6">
             <div class="widget-two   ">
                 <i class="fas fa-hand-holding-usd overlay-icon text--success"></i>
-                <div class="widget-two__icon  bg--success">
+                <div class="widget-two__icon">
                     <i class="fas fa-hand-holding-usd"></i>
                 </div>
                 <div class="widget-two__content">
@@ -118,7 +118,7 @@
         <div class="col-xxl-3 col-sm-6">
             <div class="widget-two   ">
                 <i class="fas fa-spinner overlay-icon text--warning"></i>
-                <div class="widget-two__icon  bg--warning">
+                <div class="widget-two__icon">
                     <i class="fas fa-spinner"></i>
                 </div>
                 <div class="widget-two__content">
@@ -160,7 +160,7 @@
         <div class="col-xxl-3 col-sm-6">
             <div class="widget-two   ">
                 <i class="lar la-credit-card overlay-icon text--success"></i>
-                <div class="widget-two__icon   text--success border">
+                <div class="widget-two__icon   text--success">
                     <i class="lar la-credit-card"></i>
                 </div>
                 <div class="widget-two__content">
@@ -173,7 +173,7 @@
         <div class="col-xxl-3 col-sm-6">
             <div class="widget-two   ">
                 <i class="las la-sync overlay-icon text--warning"></i>
-                <div class="widget-two__icon   text--warning border">
+                <div class="widget-two__icon   text--warning">
                     <i class="las la-sync"></i>
                 </div>
                 <div class="widget-two__content">
@@ -186,7 +186,7 @@
         <div class="col-xxl-3 col-sm-6">
             <div class="widget-two   ">
                 <i class="las la-times-circle overlay-icon text--danger"></i>
-                <div class="widget-two__icon   text--danger border">
+                <div class="widget-two__icon   text--danger">
                     <i class="las la-times-circle"></i>
                 </div>
                 <div class="widget-two__content">
@@ -199,7 +199,7 @@
         <div class="col-xxl-3 col-sm-6">
             <div class="widget-two   ">
                 <i class="las la-percent overlay-icon text--primary"></i>
-                <div class="widget-two__icon   text--primary border">
+                <div class="widget-two__icon   text--primary">
                     <i class="las la-percent"></i>
                 </div>
                 <div class="widget-two__content">
