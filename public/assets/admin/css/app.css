@@ -1904,7 +1904,7 @@ a {
 }
 
 .bg--primary {
-    background-color: #5EC36F !important;
+    background-color: #3D2BFB !important;
 }
 
 .bg--secondary {
@@ -2949,11 +2949,11 @@ a {
 }
 
 .btn--primary {
-    background-color: #5EC36F !important;
+    background-color: #3D2BFB !important;
 }
 
 .btn--primary:hover {
-    background-color: #5e50ee !important;
+    background-color: #5EC36F !important;
 }
 
 .btn--secondary {
@@ -3302,9 +3302,9 @@ a {
 }
 
 .card {
-    border: none;
-    box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.03);
-    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, .3);;
+    box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 1);
+    border-radius: 50px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
@@ -3925,15 +3925,16 @@ table.dataTable thead tr th {
 }
 
 table thead th:first-child {
-    border-radius: 5px 0 0 0;
+    border-radius: 10px 0 0 0;
 }
 
 table thead th:last-child {
-    border-radius: 0 5px 0 0;
+    border-radius: 0 10px 0 0;
 }
 
-table.table--light thead th {
+table.table--light thead {
     border: none;
+    border-radius: 10px 10px 0 0;
     color: #ffffff;
     background-color: #5EC36F;
 }
